@@ -1,0 +1,21 @@
+body {
+	background: white;
+}
+
+@keyframes draai-ff-rond {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+div {
+	display: inline-block;
+}
+
+.draai-ff-rond {
+	animation: draai-ff-rond 2s;
+	transform-origin: center center;
+}
